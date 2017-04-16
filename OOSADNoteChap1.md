@@ -105,10 +105,52 @@
 #### 反覆性(iterative)及漸進性 (incremental)
 
 > `SDLC`中持續進行測試及細部調整
+
+### 統一流程(Unified Process)
+
+> 方法論，定義使用UML技術
+
+### 統一塑模語言 (Unified Modeling Language，UML)
+
+> 14 個製圖技巧 <br>
+> 結構圖(Structure Diagrams)
+>
+>> 資料靜態關係
+>>
+>> | 圖稱(中文) | 英文 | 用途 | 主要階段 |
+>> | ---- | --- | ---| ---|
+>> | 類別 | Class Diagram | 系統中類別模型之間的關係 | 分析、設計
+>> | 物件 | Object Diagram | 系統中物件模型之間的關係 。 類別實例 | 分析、設計 |
+>> | 套件 | Package Diagram | UML元素組成 | 分析、設計、實作 |
+>> | 部屬 | Deployment Diagram | 顯示系統實體架構 | 分析、設計、實作 |
+>> | 元件 | Component Diagram | 軟體元件間關係 | 分析、設計、實作 |
+>> | 合成結構 | Composite Structure Diagram | 說明類別的內部結構，即內別中故部分之關係 | 分析、設計 |
+>
+> 行為圖 (Behavior Diagrams)
+>>
+>> 互動行為(之間)
+>>
+>> | 圖稱(中文) | 英文 | 用途 | 主要階段 | 備註 |
+>> | ---- | --- | ---| ---|---|
+>> | 循序 | Sequence Diagram | 活動的時序 | 分析、設計
+>> | 溝通 | Communication Diagram | 活動的合作物件之間的溝通 | 分析、設計 |
+>> | 互動概觀 | Interaction Overview Diagram | 程序的控制流程 | 分析、設計 |
+>> | 時序 | Timing Diagram | 物件間所發生的互動以及其沿著時間軸所經歷的狀態改變 | 分析、設計 |
+>>
+>>
+>> 作業行為(之內)
+>>
+>> | 圖稱(中文) | 英文 | 用途 | 主要階段 | 備註 |
+>> | ---- | --- | ---| ---|---|
+>> | 活動 | Activity Diagram | 說明企業流程(無關乎類別)、使用案例中的活動流程，或方法的細節設計 | 分析、設計
+>> | 行為狀態機 | Behavioral State Machines Diagram | 檢視類別行為，使用狀態、事件和轉換來描述單一物件的行為 | 分析、設計 |
+>> | 協定狀態機 | Protocol State Machines Diagram | 說明類別不同介面間的依存關係，協定狀態機不包含任何行為實作的內容，而只是描述事件和回應狀態的合法順序 | 分析、設計 |
+>> | 使用案例 | Use Case Diagram | 捕捉系統的企業需求，並說明系統與環境之間的互動關係 | 分析 |
+>>
+>>
+>
+> Diagrams = Things + Relationships
 ---
+
 # 專有名詞
 
-| name | age |
-| ---- | --- |
-| LearnShare | 12 |
-| Mike |  32 |
