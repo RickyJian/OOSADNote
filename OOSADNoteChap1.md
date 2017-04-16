@@ -54,32 +54,26 @@
 > 測試 、 安裝 、 訓練 、 支援
 
 ### 方法論( methodology )
-
 > 實作 SDLC 的形式化方法 <br>
 > step + deliverable <br>
 > OOSAD ： 平衡 Process + data
 
 #### 程序為主(process-centered)
-
 > 程序、步驟、SOP
 
 ####  資料為主(data-centered)
-
 > 資料、內容
 
 #### 快速應用程式開發( rapid application development ， RAD )
-
 > 階段式開發 (phased development) <br>
 > 整個系統分成一系列版本(version)
 
 ### 物件導向系統設計與分析( Object-Oriented Systems Analysis and Design ， OOSAD )
-
 > 方法論 ： 統一流程 <br>
 > 圖面符號 ： 統以塑模語言
 > 與 `RAD` 方法貼近
 
 #### 使用案例導向 (Use-case driven)
-
 > 專注於一項活動
 
 ##### 使用案例
@@ -89,7 +83,6 @@
 > 使用者與系統相互作用
 
 #### 以架構為中心 (Architecture centric)
-
 > 逐步形成系統規格 <br>
 
 ##### 功能(外部觀點，functional view )
@@ -104,17 +97,15 @@
 > 描述系統內部行為
 
 #### 反覆性(iterative)及漸進性 (incremental)
-
 > `SDLC`中持續進行測試及細部調整
 
 ### 統一流程(Unified Process)
-
 > 方法論，定義使用UML技術
 
 ### 統一塑模語言 (Unified Modeling Language，UML)
-
 > 14 個製圖技巧 <br>
->  Diagrams = Things + Relationships
+> Diagrams = Things + Relationships
+
 #### 結構圖(Structure Diagrams) 
 > 資料靜態關係
 
