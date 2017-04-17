@@ -38,4 +38,4 @@
 > 服務的限制條件或是系統提供的功能，包括時間上的限制、開發程序上的限制和標準等。
 
 
-![需求架構](/需求結構.png "需求架構")
+![RequireConstructor](images/Require_Constructor.png "RequireConstructor")
