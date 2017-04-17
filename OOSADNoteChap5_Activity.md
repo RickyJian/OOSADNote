@@ -47,7 +47,7 @@
 
 | 名稱(中文) | 名稱(英文) | 用途 | 圖示 | 備註 |
 |---|---|---|---|---|
-| 動作 | action | 簡單不可分解的行為| ![ActivityImage](images/activity.png) | Action Node |
+| 動作 | action | 簡單不可分解的行為| ![ActivityImage](images/activity.jpg) | Action Node |
 | 活動 | activity | 一組動作 |  | Action Node |
 | 物件節點 | object node | 代表從一個活動流程到另一個活動的資訊 |  | Object Node |
 | 開始節點 | Initial Node |  活動開始 | | Control Node  |
