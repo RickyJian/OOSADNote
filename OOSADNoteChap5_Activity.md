@@ -87,7 +87,42 @@
 ### 活動段落
 > 讓活動圖易於閱讀
 
-![InitialNode](images/Activity_Swimlane.PNG "InitialNode")
+![Swimlane](images/Activity_Swimlane.PNG "Swimlane")
+
+### 連接點 (connector)
+> 避免 `edge` 交錯複雜
+
+![Connector](images/Activity_Connector.PNG "Connector")
+
+### 可中斷活動區 (Interruptible Activity Region)
+> 當有中斷訊息發生即可中斷活動區域
+
+![IAR](images/Activity_IAR.PNG "IAR")
+
+#### 中斷訊號 
+![IS](images/Activity_IS.PNG "IS")
+![IS2](images/Activity_IS2.PNG "IS2")
+
+### 腳位 (PIN)
+> `object note` <br>
+> 放置在`動作 (action)`的輸入或輸出，一個輸入對一個輸出
+
+![PIN](images/Activity_PIN.PNG "PIN")
+
+### 擴充節點 (Expansion Node)
+> object note <br> 
+> 表現出擴充區是如何處理一組物件之集合
+
+#### 擴充區 (Expansion)
+* 反覆式(Iterative) 
+    > 依序處理集合內的每個元件
+* 平行式(Parallel) 
+    > 平行處理集合內的每個元件
+* 串流式(Stream) 
+    > 依元件到達順序處理集合內的每個元件
+
+
+![ExpansionNode](images/Activity_ExpansionNode.PNG "ExpansionNode")
 
 ----
 ## 補充
@@ -118,6 +153,14 @@
 | 傳送訊號 | 「產生」某一個特定的信號<br> 傳送非同步訊號，可接收輸入參數 | ![SS](images/ActionNode_SS.PNG "SS")  |
 | 接收事件動作節點 | 「等待」某一個特定事件發生 |  ![RAN](images/ActionNode_RAN.PNG "RAN")  |
 | 接收時間事件動作節點 | 對時間事件的回應 <br> 因為有時我們需要等待一段時間後，才會進行下一個動作，或周期定時執行一些動作  |  ![TE](images/ActionNode_TE.PNG "TE")  |
+
+#### Object Node
+
+| 名稱 | 用途 | 圖示 | 
+|---|---|---|
+| 腳位 | 放置在`動作 (action)`的輸入或輸出，一個輸入對一個輸出 | ![PIN](images/Activity_PIN2.PNG "PIN") |
+| 擴充節點 | 表現出擴充區是如何處理一組物件之集合 | ![ExpansionNode](images/Activity_ExpansionNode2.PNG "ExpansionNode") |
+
 
 ### 其他
 * :: 
