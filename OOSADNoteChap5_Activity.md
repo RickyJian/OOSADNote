@@ -96,7 +96,7 @@
 
 | 名稱(中文) | 名稱(英文) | 用途 | 圖示 | 備註 |
 |---|---|---|---|---|
-| 動作 | action | 簡單不可分解的行為| ![Action](images/Action.PNG "Action") | Action Node |
+| 動作 | action | 簡單不可分解的行為| ![Action](images/ActionNode_Action.PNG "Action") | Action Node |
 | 活動 | activity | 一組動作 | ![Activity](images/ActionNode_Activity.PNG "Activity")  ![Activity](images/ActionNode_Activity2.PNG "Activity")  | Action Node |
 | 物件節點 | object node | 代表從一個活動流程到另一個活動的資訊 | ![Object](images/ObjectlNode.PNG "Object") | Object Node |
 | 開始節點 | Initial Node |  活動開始 |  ![IN](images/ControlNode_IN.PNG "IN") | Control Node  |
