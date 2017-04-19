@@ -13,7 +13,7 @@
     * 動作 (action) ： 簡單不可分割行為
     * 活動 (activity) ： 一組動作
 
-    ![Activity](images/Activity.PNG "Activity")
+    ![ActivityNode](images/ActivityNode.PNG "ActivityNode")
 
 2.  控制節點 (Control node)
     > 控制整個活動流程
