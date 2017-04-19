@@ -1,5 +1,6 @@
 # Unit 5 使用案例圖 (Use Case Diagram)
 > **功能性圖**，描繪出系統的基本功能
+> 一連串的動作，包括變動的順序與錯誤的順序，使系統、子系統或是類別能與actor互動
 
 ![UseCaseDiagram](/images/UseCaseDiagram.PNG "UseCaseDiagram") 
 
@@ -36,7 +37,7 @@
 
         1. 基本使用案例 (Base Use Case)
         2. 內含使用案例 (Inclusion Use Case)
-        
+
             > 被包含的使用案例
 
         ![Include](/images/UseCase_I.PNG "Include")
