@@ -85,7 +85,7 @@
 | 名稱(中文) | 名稱(英文) | 用途 | 圖示 |
 |---|---|---|---|
 | 主題(系統)邊界 | subject/system boundary | 決定系統功能範圍 | ![subject](/images/UseCase_Subject.PNG "subject") |
-| 參與者 | actor / role | 使用系統的人或事 | ![Actor](/images/UseCase_actor.PNG "Actor") |
+| 參與者 | actor / role | 使用系統的人或事 | ![Actor](/images/UseCase_Actor.PNG "Actor") |
 | 使用案例 | use case | 使用系統的人或事 | ![Use Case](/images/UseCase_UseCase.PNG "Use Case") |
 | 關聯 | association | `使用案例`與`參與者`之間的溝通 | ![Use Case](/images/UseCase_Association.PNG "Use Case") |
 | 包括 | include | 使用案例功能，包含在另一個使用案例內 <br> 必然發生 | ![include](/images/UseCase_Include.PNG "include") |
