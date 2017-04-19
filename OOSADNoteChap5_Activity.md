@@ -124,6 +124,12 @@
 
 ![ExpansionNode](images/Activity_ExpansionNode.PNG "ExpansionNode")
 
+#### 串流
+> 依元件到達順序處理集合內的每個元件
+
+![Stream](images/Activity_Stream.PNG "Stream")
+
+
 ----
 ## 補充
 
@@ -162,6 +168,18 @@
 | 擴充節點 | 表現出擴充區是如何處理一組物件之集合 | ![ExpansionNode](images/Activity_ExpansionNode2.PNG "ExpansionNode") |
 
 
+####
+
+| 名稱 | 用途 | 
+|---|---|
+| \<\<external\>\> |  6 |
+
+*  
+
+    > 活動圖與外部系統溝通 <br>
+    > 外部活動段落並非系統一部份
+
+
 ### 其他
 * :: 
     > 分隔活動段落
@@ -174,11 +192,6 @@
     > 代表動作呼叫某個活動，節點名稱與呼叫的活動相同
 
     ![Rake](images/Rake.PNG "Rake")
-
-*  \<\<external\>\>
-
-    > 活動圖與外部系統溝通 <br>
-    > 外部活動段落並非系統一部份
 
 * ( )
     > 參數
