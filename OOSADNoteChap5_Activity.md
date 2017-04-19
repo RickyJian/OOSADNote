@@ -129,8 +129,21 @@
 
 ![Stream](images/Activity_Stream.PNG "Stream")
 
+### 系統徵求書 (Request for proposal ， RFP)
+> 組織為了制定標準所採用的建議書徵求流程
 
+### 參數組合 (Parameter Set)
+> 可以組合不同的輸入輸出`角位(PIN)` <br>
+> 輸入不能與輸出組合
+
+![PS](images/Activity_ParameterSet.PNG "PS")
+
+### 輸入(input effect)、輸出(output effect)影響
+> 輸入輸出時造成的影響
+
+![IOE](images/Activity_IOE.PNG "IOE")
 ----
+
 ## 補充
 
 ### Node 
@@ -167,6 +180,20 @@
 | 腳位 | 放置在`動作 (action)`的輸入或輸出，一個輸入對一個輸出 | ![PIN](images/Activity_PIN2.PNG "PIN") |
 | 擴充節點 | 表現出擴充區是如何處理一組物件之集合 | ![ExpansionNode](images/Activity_ExpansionNode2.PNG "ExpansionNode") |
 
+
+### \<\< \>\> Stereotype
+
+| 名稱 | 用途 | 
+|---|---|
+| \<\<external\>\> | 活動圖與外部系統溝通 <br> 外部活動段落並非系統一部份 |
+| \<\<selection\>\> | 物件流程中的條件說明<br>僅接收滿足的條件 |
+| \<\<transformation\>\> | 物件流程中物件轉換成不同的類型 |
+| \<\<multicast\>\> | 多方傳遞<br>物件傳遞給多個接收者 |
+| \<\<multireceive\>\> | 多方接收<br>物件從多個地方傳遞而來 |
+| \<\<centralbuffer\>\> | 輸出與輸入間的緩衝區 |
+
+![MutilCS](images/ActivityStereotype_CS.PNG "MutilCS")
+![centralbuffer](images/ActivityStereotype_C.PNG "centralbuffer")
 
 ### 其他
 * :: 
