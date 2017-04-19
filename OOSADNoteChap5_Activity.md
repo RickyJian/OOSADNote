@@ -142,7 +142,8 @@
 ![PS](images/Activity_ParameterSet.PNG "PS")
 
 ### 輸入(input effect)、輸出(output effect)影響
-> 輸入輸出時造成的影響
+> 輸入輸出時造成的影響 <br>
+> 可以用大括弧包住說明內容
 
 ![IOE](images/Activity_IOE.PNG "IOE")
 ----
