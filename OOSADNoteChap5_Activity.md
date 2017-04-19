@@ -21,7 +21,7 @@
     ![ControlNode](images/ControlNode.PNG "ControlNode")
 
     * 開始節點 (Initial Node) ： 活動開始
-    * 活動結束節點 ( final-activity node) ： 用來停止活動的所有`物件流`及`控制流`
+    * 活動結束節點 ( activity-final node) ： 用來停止活動的所有`物件流`及`控制流`
     * 流程結束節點 (flow-final node) ： 用來停止特定活動的`物件流`及`控制流`
     * 決策節點 (decision node) ： 根據條件走訪路徑
          > 標示門檻條件(guard condition) ： 走訪這條路徑的測試值
