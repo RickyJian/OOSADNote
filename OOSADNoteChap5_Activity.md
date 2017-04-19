@@ -129,6 +129,9 @@
 
 ![Stream](images/Activity_Stream.PNG "Stream")
 
+> 標頭為填滿黑色：signal，無資料 <br>
+> 標頭無填滿：message，有資料
+
 ### 系統徵求書 (Request for proposal ， RFP)
 > 組織為了制定標準所採用的建議書徵求流程
 
