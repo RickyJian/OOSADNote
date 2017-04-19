@@ -36,6 +36,7 @@
 
         1. 基本使用案例 (Base Use Case)
         2. 內含使用案例 (Inclusion Use Case)
+        
             > 被包含的使用案例
 
         ![Include](/images/UseCase_I.PNG "Include")
