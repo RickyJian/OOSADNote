@@ -168,18 +168,6 @@
 | 擴充節點 | 表現出擴充區是如何處理一組物件之集合 | ![ExpansionNode](images/Activity_ExpansionNode2.PNG "ExpansionNode") |
 
 
-####
-
-| 名稱 | 用途 | 
-|---|---|
-| \<\<external\>\> |  6 |
-
-*  
-
-    > 活動圖與外部系統溝通 <br>
-    > 外部活動段落並非系統一部份
-
-
 ### 其他
 * :: 
     > 分隔活動段落
