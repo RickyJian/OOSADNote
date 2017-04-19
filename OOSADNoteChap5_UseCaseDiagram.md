@@ -91,5 +91,3 @@
 | 包括 | include | 使用案例功能，包含在另一個使用案例內 <br> 必然發生 | ![include](/images/UseCase_Include.PNG "include") |
 | 延伸 | extend | 延伸功能，不必然發生 | ![extend](/images/UseCase_Extend.PNG "extend") |
 | 一般化 | generalization | 繼承關係 | ![Generilization](/images/UseCase_Generilization.PNG "Generilization") |
-
- 專案工作成果 (Artifact)
