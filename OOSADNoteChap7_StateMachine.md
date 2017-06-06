@@ -20,6 +20,40 @@
 
 時空間中發生的事項
 
+![Event](images/StateMachine_Event.PNG "Event")
+
+### 呼叫事件
+
+呼叫類別實力的某個特定動做
+
+![Event](images/StateMachine_Event2.PNG "Event")
+
+### 信號事件
+
+信號是一個資訊封包，可以非同步的在物件傳遞
+
+![Event](images/StateMachine_Event3.PNG "Event")
+
+![Event](images/StateMachine_Event4.PNG "Event")
+
+> 信號傳遞凸五角形代表
+
+![Event](images/StateMachine_Event5.PNG "Event")
+
+> 信號接收凹五角形代表
+
+### 變化事件
+
+布林表示式表示，事件的值由 false 轉為 true 時，開始執行。系統在狀態內會一直不斷測試布林值
+
+![Event](images/StateMachine_Event6.PNG "Event")
+
+### 時間事件
+
+關鍵字 `when` 、 `after` ，特定時間點驅動
+
+![Event](images/StateMachine_Event7.PNG "Event")
+
 ## 轉換
 
 反應事件過程中從一個狀態移動到另一個狀態
