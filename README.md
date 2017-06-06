@@ -28,6 +28,10 @@
 
 使用案例圖 (Use Case Diagram)
 
+## OOSADNoteChap7_StateMachine
+
+狀態機 (State Machine)
+
 ## OOSADNoteChap8_Package
 
 套件圖 (Package)
