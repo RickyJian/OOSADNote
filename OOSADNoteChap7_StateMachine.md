@@ -24,6 +24,24 @@
 
 反應事件過程中從一個狀態移動到另一個狀態
 
+### 轉換的連接-虛擬狀態 (Junction Pseudo_State)
+
+表合併或分支傳換點
+
+![Junction Pseudo_State](images/StateMachine_JunctionPseudoState.PNG "Junction Pseudo_State")
+
+![Junction Pseudo_State](images/StateMachine_JunctionPseudoState2.PNG "Junction Pseudo_State")
+
+> 若連接虛擬狀態有一個以上的轉換輸出點，則每個輸出的轉換一定要受到互斥判斷條件的保護，讓同一時間僅有一個轉換發生
+
+
+### 轉換的分支-選擇虛擬狀態
+
+表現簡單的分支而不要有合併
+
+![Junction Pseudo_State](images/StateMachine_JunctionPseudoState3.PNG "Junction Pseudo_State")
+
+
 ### 內部轉換
 
 描述模型中雖然有發生某些事情但是並沒有觸發任何的狀態的轉換，是由於不夠重要
@@ -53,6 +71,10 @@
 * 零個或一個判斷條件：布林算表示式，true才會發生狀態轉換
 * 零個以上的Action：一連串與轉換相關的作業，且發生在轉換開始的瞬間
 
+ ![Transform](images/StateMachine_Transform2.PNG "Transform")
+
+> 在狀況 event1 or event2 發生時，若 guardCondition 為 true 時，則 anAction 進入狀態 B 
+
 #### 外部
 
 箭頭線條表示
@@ -71,7 +93,10 @@
 
 ### 轉換
 
-判斷條件由前置條件(Precondition)與後置(Postcondition)所取代
+* 沒有動作，因為指名的是協定內容不是實作內容
+* 判斷條件由前置條件(Precondition)與後置(Postcondition)所取代
+
+![Transform](images/StateMachine_Transform3.PNG "Transform")
 
 ## 圖示語意
 
