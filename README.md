@@ -43,3 +43,7 @@
 ## OOSADNote_Component
 
 元件圖(Component)
+
+## OOSADNote_Timing
+
+時序圖(Timing)
