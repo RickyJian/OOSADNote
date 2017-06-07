@@ -38,4 +38,8 @@
 
 ## OOSADNoteChap11
 
-介面 (Interface)
+介面圖 (Interface)
+
+## OOSADNote_Component
+
+元件圖(Component)

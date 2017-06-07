@@ -1,4 +1,4 @@
-# Unit 11 介面 (Interface)
+# Unit 11 介面圖 (Interface)
 
 定義了一組具名的公開特徵
 
