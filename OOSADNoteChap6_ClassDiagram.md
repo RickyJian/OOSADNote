@@ -11,6 +11,10 @@
 
 描述類別資訊
 
+### 衍生屬性(derived attribute)
+
+經由計算或推導所得的屬性，在屬性前面加斜線(`/`)
+
 ## 操作 (operation)
 
 行為
@@ -53,3 +57,26 @@
  `-` | 隱藏 | Private | 類別中才能存取
  `#` | 保護 | Protected | 類別、子類別能存取
  `~` | 套件 | Package | 同一套件或子套件能存取
+
+ -------
+
+ # 補充
+
+ ## CRC卡
+
+ 類別的責任與合作
+
+ > C：Class <br>
+ > R：Responsibilities <br>
+ > C：Collaborators
+  
+
+ ### 責任 (responsibility)
+
+ #### 知 (knowing)
+
+哪些事情是類別實體能知道的
+
+ #### 做 (doing)
+
+ 哪些事情是類別實體能做的
