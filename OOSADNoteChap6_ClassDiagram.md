@@ -25,6 +25,8 @@
 
 繼承，`a-kind-of`代表
 
+![Generaization](/images/Class_Generaization.PNG "Generaization") 
+
 #### 超類別(superclass) 
 
 父類別
@@ -37,7 +39,7 @@
 
 ### 組合關係 (aggregation)
 
-把部分(parts)關連到全部(whole)，或把部分關連到組合(assemble)。本質上基本是雙向
+把部分(parts)關連到全部(whole)，或把部分關連到組合(assemble)。本質上基本是雙向。邏輯性
 
 * `a-part-of`：邏輯的或實體的
 * `a-member-of`：如集合成員關係
@@ -45,9 +47,22 @@
 * `related-to`
 * `associated-with`
 
+![Aggregation](/images/Class_Aggregation.PNG "Aggregation") 
+
+### 組成關係
+
+與組合關係相似，物理性
+
+
+![Composition](/images/Class_Composition.PNG "Composition") 
+
+
 ### 關聯關係 (association)
 
 常用在類別
+
+![Association](/images/Class_Association2.PNG "Association") 
+
 
 ## 可見性 (Visibility)
 
