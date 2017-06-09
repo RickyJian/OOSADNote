@@ -28,6 +28,10 @@
 
 使用案例圖 (Use Case Diagram)
 
+## OOSADNoteChap6
+
+# Unit 6 類別圖 (Class Diagram)
+
 ## OOSADNoteChap7_StateMachine
 
 狀態機 (State Machine)
@@ -39,6 +43,10 @@
 ## OOSADNoteChap11
 
 介面圖 (Interface)
+
+## OOSADNoteChap12_Deployment
+
+部署圖 (Deployment Diagram)
 
 ## OOSADNote_Component
 
