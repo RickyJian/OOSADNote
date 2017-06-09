@@ -4,7 +4,18 @@
 
 ![Object](/images/Class_TopGround.PNG.PNG "Object") 
 
-## 實例化 (instantiation)
+## 屬性
+
+
+
+## 可見性 (Visibility)
+
+裝飾 | 名稱(中) | 名稱(英) | 語意
+---------|----------|---------
+ `+` | 公開 | Public | 任何元件都會存取
+ `-` | 隱藏 | Private | 類別中才能存取
+ `#` | 保護 | Protected | 類別、子類別能存取
+ `~` | 套件 | Package | 同一套件或子套件能存取
 
 
 --------
