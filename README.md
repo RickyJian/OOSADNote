@@ -28,9 +28,13 @@
 
 使用案例圖 (Use Case Diagram)
 
-## OOSADNoteChap6
+## OOSADNoteChap6_ClassDiagram
 
 類別圖 (Class Diagram)
+
+## OOSADNoteChap6_ObjectDiagram
+
+類別圖 (Object Diagram)
 
 ## OOSADNoteChap7_StateMachine
 
