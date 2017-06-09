@@ -30,7 +30,7 @@
 
 ## OOSADNoteChap6
 
-# Unit 6 類別圖 (Class Diagram)
+類別圖 (Class Diagram)
 
 ## OOSADNoteChap7_StateMachine
 
