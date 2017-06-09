@@ -2,7 +2,7 @@
 
 對一組擁有相同屬性、動作、方法、關係與行為的物件的一段描述
 
-![Object](/images/Class_TopGround.PNG.PNG "Object") 
+![Object](/images/Class_TopGround.PNG "Object") 
 
 ## 屬性
 
