@@ -4,9 +4,46 @@
 
 ![Object](/images/Class_TopGround.PNG "Object") 
 
-## 屬性
+> 具體類別 (concrete class)：用來建立物件 <br>
+> 抽象類別 (abstract class)：表達抽象概念
 
+## 屬性 (attribute)
 
+描述類別資訊
+
+## 操作 (operation)
+
+行為
+
+## 關係 (relationship)
+
+### 一般化關係 (generalization)
+
+繼承，`a-kind-of`代表
+
+#### 超類別(superclass) 
+
+父類別
+
+#### 子類別(subclass)
+
+會繼承`超類別`屬性及操作
+
+> 可替代性原則(principle of substitutability)：若`子類別`屬性及操作與`超類別`一樣，則能取代
+
+### 組合關係 (aggregation)
+
+把部分(parts)關連到全部(whole)，或把部分關連到組合(assemble)。本質上基本是雙向
+
+* `a-part-of`：邏輯的或實體的
+* `a-member-of`：如集合成員關係
+* `contained-in`
+* `related-to`
+* `associated-with`
+
+### 關聯關係 (association)
+
+常用在類別
 
 ## 可見性 (Visibility)
 
