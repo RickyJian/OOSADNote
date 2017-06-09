@@ -16,15 +16,3 @@
  `-` | 隱藏 | Private | 類別中才能存取
  `#` | 保護 | Protected | 類別、子類別能存取
  `~` | 套件 | Package | 同一套件或子套件能存取
-
-
---------
-
-# 補充
-
-# 物件
-
-有明確範圍且封裝狀態與行為的獨立實體，是類別實例。命名以駝峰字(lowerCamelCase)
-
-![Object](/images/Object_TopGround.PNG.PNG "Object") 
-
