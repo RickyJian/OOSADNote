@@ -12,7 +12,7 @@
 ![Object](/images/Object_Link.PNG "Object") 
 
 ### 鏈結要點：
+
  * 十字表示不通
  * 雙向性的關聯不畫箭頭
  * 單向性的關聯有單一箭頭
-
