@@ -40,6 +40,10 @@
 
 狀態機 (State Machine)
 
+## OOSADNoteChap7_SequenceDiagram
+
+循序圖 (Sequence Diagram)
+
 ## OOSADNoteChap8_Package
 
 套件圖 (Package)
@@ -54,8 +58,8 @@
 
 ## OOSADNote_Component
 
-元件圖(Component)
+元件圖 (Component)
 
 ## OOSADNote_Timing
 
-時序圖(Timing)
+時序圖 (Timing)
