@@ -68,30 +68,43 @@
 
 裝飾 | 名稱(中) | 名稱(英) | 語意
 ---------|----------|---------|---------
- `+` | 公開 | Public | 任何元件都會存取
- `-` | 隱藏 | Private | 類別中才能存取
- `#` | 保護 | Protected | 類別、子類別能存取
- `~` | 套件 | Package | 同一套件或子套件能存取
+`+` | 公開 | Public | 任何元件都會存取
+`-` | 隱藏 | Private | 類別中才能存取
+`#` | 保護 | Protected | 類別、子類別能存取
+`～` | 套件 | Package | 同一套件或子套件能存取
 
- -------
+## 簡化類別圖
 
- # 補充
+簡化複雜類別圖
 
- ## CRC卡
+### 觀點 (View)
 
- 類別的責任與合作
+1. 類別圖子集合
+2. 顯示某個特定類型的關係
+3. 限制類別所能顯示的資訊
 
- > C：Class <br>
- > R：Responsibilities <br>
- > C：Collaborators
-  
+### 使用套件 (Package)
 
- ### 責任 (responsibility)
+將類別集合起來變成套件
 
- #### 知 (knowing)
+-------
+
+# 補充
+
+## CRC卡
+
+類別的責任與合作
+
+> C：Class <br>
+> R：Responsibilities <br>
+> C：Collaborators
+
+### 責任 (responsibility)
+
+#### 知 (knowing)
 
 哪些事情是類別實體能知道的
 
- #### 做 (doing)
+#### 做 (doing)
 
- 哪些事情是類別實體能做的
+哪些事情是類別實體能做的
