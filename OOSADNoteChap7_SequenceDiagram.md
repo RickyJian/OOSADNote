@@ -10,7 +10,6 @@
 
 又稱控制焦點(Focus Of Control)
 
-
 ## 註解
 
 說明圖中意義
@@ -27,4 +26,12 @@
 
 ![State Invariant](/images/Sequence_StateInvariant.PNG "State Invariant") 
 
+## 符號
 
+名稱 | 定義 | 符號
+---------|----------|---------
+參與者 | 人或系統能從系統獲益且置身於系統之外<br>透過訊息收發，參與某個協力合作 | ![Actor](/images/Sequence_Actor.PNG "Actor") ![Actor](/images/Sequence_Actor2.PNG "Actor") 
+物件 | 透過訊息收發，參與某個協力合作 | ![Actor](/images/Sequence_Object.PNG "Actor")
+生命線 | 代表物件在序列期間的生命<br>不再互動的地方包含一個X符號 | ![LifeLine](/images/Sequence_LifeLine.PNG "LifeLine")
+執行事件 | 標示出物件何時收發訊息 | ![ex](/images/Sequence_Execution.PNG "ex")
+訊息 | 訊息從物件傳到另一個物件<br>傳送：實現箭頭<br>回傳：虛線箭頭 | ![Message](/images/Sequence_Message.PNG "Message")
