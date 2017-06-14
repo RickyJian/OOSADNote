@@ -7,7 +7,14 @@
 > 具體類別 (concrete class)：用來建立物件 <br>
 > 抽象類別 (abstract class)：表達抽象概念
 
-## 屬性 (attribute)
+## 名稱區塊
+
+* 駝峰字
+* 名詞或動名詞
+
+## 屬性區塊 (attribute)
+
+格式：visibility name : type [multiplicity] = initialValue <br>
 
 描述類別資訊
 
@@ -15,9 +22,41 @@
 
 經由計算或推導所得的屬性，在屬性前面加斜線(`/`)
 
-## 操作 (operation)
+### 初值 (initial value)
 
-行為
+物件建立時設定的職
+
+## 動作區塊 (operation)
+
+格式：visibility name (parameterName:parameterType ...) :returnType
+
+<br>
+
+類別中的功能
+
+* 名稱
+* 參數
+* 回傳型別
+
+## 可見性 (Visibility)
+
+裝飾 | 名稱(中) | 名稱(英) | 語意
+---------|----------|---------|---------
+`+` | 公開 | Public | 任何元件都會存取
+`-` | 隱藏 | Private | 類別中才能存取
+`#` | 保護 | Protected | 類別、子類別能存取
+`～` | 套件 | Package | 同一套件或子套件能存取
+
+
+## 多重性 (Multiplicity)
+
+說明關係上的數量
+
+* 集合(Collection)：值大於1代表物件是集合
+* 空值(Null)：表示物件本身尚未建立，例：[0..1]
+
+
+![Multiplicity](/images/Class_Multiplicity.PNG "Multiplicity")
 
 ## 關係 (relationship)
 
@@ -37,7 +76,16 @@
 
 > 可替代性原則(principle of substitutability)：若`子類別`屬性及操作與`超類別`一樣，則能取代
 
-### 組合關係 (aggregation)
+
+### 關聯關係 (association)
+
+常用在類別
+
+![Association](/images/Class_Association2.PNG "Association")
+
+![Relationship](/images/Relationship.PNG "Relationship")  
+
+#### 組合關係 (aggregation)
 
 把部分(parts)關連到全部(whole)，或把部分關連到組合(assemble)。本質上基本是雙向。邏輯性
 
@@ -49,29 +97,13 @@
 
 ![Aggregation](/images/Class_Aggregation.PNG "Aggregation") 
 
-### 組成關係
+#### 組成關係 (Composition)
 
-與組合關係相似，物理性
+與組合關係相似，物理性，例：樹與葉子關係
 
 
 ![Composition](/images/Class_Composition.PNG "Composition") 
 
-
-### 關聯關係 (association)
-
-常用在類別
-
-![Association](/images/Class_Association2.PNG "Association") 
-
-
-## 可見性 (Visibility)
-
-裝飾 | 名稱(中) | 名稱(英) | 語意
----------|----------|---------|---------
-`+` | 公開 | Public | 任何元件都會存取
-`-` | 隱藏 | Private | 類別中才能存取
-`#` | 保護 | Protected | 類別、子類別能存取
-`～` | 套件 | Package | 同一套件或子套件能存取
 
 ## 簡化類別圖
 
@@ -86,6 +118,12 @@
 ### 使用套件 (Package)
 
 將類別集合起來變成套件
+
+## 物件與類別相依
+
+類別實例化
+
+![Instantiate](/images/ClassObject_Dependency.PNG "Instantiate")
 
 -------
 
