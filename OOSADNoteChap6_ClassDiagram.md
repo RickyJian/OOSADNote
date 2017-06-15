@@ -2,7 +2,9 @@
 
 對一組擁有相同屬性、動作、方法、關係與行為的物件的一段描述
 
-![Object](/images/Class_TopGround.PNG "Object") 
+![Class](/images/Class_TopGround.PNG "Class")
+![Symbol](/images/Class_Symbol.PNG "Symbol") 
+
 
 > 具體類別 (concrete class)：用來建立物件 <br>
 > 抽象類別 (abstract class)：表達抽象概念
