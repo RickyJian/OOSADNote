@@ -26,7 +26,7 @@
 
 ### 初值 (initial value)
 
-物件建立時設定的職
+物件建立時設定的直
 
 ## 動作區塊 (operation)
 
@@ -89,23 +89,26 @@
 
 #### 組合關係 (aggregation)
 
-把部分(parts)關連到全部(whole)，或把部分關連到組合(assemble)。本質上基本是雙向。邏輯性
+把部分(parts)關連到全部(whole)，或把部分關連到組合(assemble)。本質上基本是雙向。邏輯性。 <br>
+比較弱的關係，兩物件的生命週期各自獨立，也就是說物件並不負責另一個的產生和刪除。
 
 * `a-part-of`：邏輯的或實體的
 * `a-member-of`：如集合成員關係
 * `contained-in`
 * `related-to`
 * `associated-with`
+* `has a`
 
 ![Aggregation](/images/Class_Aggregation.PNG "Aggregation") 
 
 #### 組成關係 (Composition)
 
-與組合關係相似，物理性，例：樹與葉子關係
-
+與組合關係相似，物理性，例：樹與葉子關係 <br>
+比較強的關係，子關係依賴父關係，也就是說父物件刪除會影響子物件
 
 ![Composition](/images/Class_Composition.PNG "Composition") 
 
+`Owns a`
 
 ## 簡化類別圖
 
