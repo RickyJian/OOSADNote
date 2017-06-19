@@ -39,6 +39,6 @@ port在邊上代表公開，port在邊內代表隱藏或保護
  屬性 | Attribute | 公開的動作來傳送與接收屬性值 
  關聯 | Association | 目標類詞關聯
  約束 | Constraint | 約束條件
- 造型 | stereotype | 造型
+ 造型 | Stereotype | 造型
  標籤值 | Tagged Value | 標籤值
  協定 | Protocol | 實現協定 
