@@ -1,4 +1,4 @@
-# 關係 (OOSADNote_Relationship)
+# 關係 (Relationship)
 
 有意義的連接線
 
