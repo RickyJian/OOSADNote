@@ -8,7 +8,7 @@
 
 > 自我指派：物件自己呼叫自己
 
-## 啟動 (Activation、Focus Of Control`、 Execution Occurrence)
+## 啟動 (Activation、Focus Of Control、 Execution Occurrence)
 
 又稱控制焦點(Focus Of Control)，互動片段，用來表現物件的開始與結束的執行過程。
 
