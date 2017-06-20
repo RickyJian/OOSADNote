@@ -60,6 +60,12 @@
 
 ![Multiplicity](/images/Class_Multiplicity.PNG "Multiplicity")
 
+## 可通性 (Navigability)
+
+訊息傳遞方向
+
+![Navigability](/images/Class_Navigability.PNG "Navigability") 
+
 ## 關係 (relationship)
 
 ### 一般化關係 (generalization)
