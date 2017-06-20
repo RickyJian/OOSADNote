@@ -138,5 +138,5 @@
 ---------|----------|---------- | ----------
 初始狀態 | Initail Start State | 狀態起始 | ![InitailStartState](images/StateMachine_InitailStartState.PNG "InitailStartState")
 結束狀態 | Stop State | 狀態結束 |  ![StopState](images/StateMachine_StopState.PNG "StopState")
-轉換 |  | 狀態改變，只含箭頭 | ![Transform](images/StateMachine_Transform.PNG "Transform")
-事件 |  | 時空間中發生的事項，傳換箭頭上方 | ![Transform](images/StateMachine_Transform.PNG "Transform")
+轉換 | Transition | 狀態改變，只含箭頭 | ![Transition](images/StateMachine_Transform.PNG "Transition")
+事件 | Event | 時空間中發生的事項，傳換箭頭上方 | ![Event](images/StateMachine_Transform.PNG "Event")
