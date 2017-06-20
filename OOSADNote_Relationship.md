@@ -10,6 +10,7 @@
 * Generalization
 
 <br>
+使用時機
 
 * 參與者與使用案例間的關係(Association)
 * 使用案例間的關係 (Generalization , `<<include>>` , `<<extend>>`)
@@ -29,7 +30,7 @@
 
 ![Relationship](/images/Relationship.PNG "Relationship")
 
-#### 組合關係 (aggregation)
+#### 組合關係 (Aggregation)
 
 把部分(parts)關連到全部(whole)，或把部分關連到組合(assemble)。本質上基本是雙向。邏輯性。 <br>
 比較弱的關係，兩物件的生命週期各自獨立，也就是說物件並不負責另一個的產生和刪除。
