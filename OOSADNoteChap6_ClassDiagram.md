@@ -104,7 +104,7 @@
 #### 組成關係 (Composition)
 
 與組合關係相似，物理性，例：樹與葉子關係 <br>
-比較強的關係，子關係依賴父關係，也就是說父物件刪除會影響子物件
+比較強的關係，子關係依賴父關係，也就是說父物件刪除會影響子物件，同生共死
 
 ![Composition](/images/Class_Composition.PNG "Composition") 
 
