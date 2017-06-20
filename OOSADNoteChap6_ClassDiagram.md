@@ -50,22 +50,6 @@
 `～` | 套件 | Package | 同一套件或子套件能存取
 
 
-## 多重性 (Multiplicity)
-
-說明關係上的數量
-
-* 集合(Collection)：值大於1代表物件是集合
-* 空值(Null)：表示物件本身尚未建立，例：[0..1]
-
-
-![Multiplicity](/images/Class_Multiplicity.PNG "Multiplicity")
-
-## 可通性 (Navigability)
-
-訊息傳遞方向
-
-![Navigability](/images/Class_Navigability.PNG "Navigability") 
-
 ## 關係 (relationship)
 
 ### 一般化關係 (generalization)
@@ -115,6 +99,23 @@
 ![Composition](/images/Class_Composition.PNG "Composition") 
 
 `Owns a`
+
+
+## 多重性 (Multiplicity)
+
+說明關係上的數量
+
+* 集合(Collection)：值大於1代表物件是集合
+* 空值(Null)：表示物件本身尚未建立，例：[0..1]
+
+
+![Multiplicity](/images/Class_Multiplicity.PNG "Multiplicity")
+
+## 可通性 (Navigability)
+
+訊息傳遞方向
+
+![Navigability](/images/Class_Navigability.PNG "Navigability") 
 
 ## 簡化類別圖
 
