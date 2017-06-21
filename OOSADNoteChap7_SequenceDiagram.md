@@ -53,7 +53,7 @@
 名稱(中) | 名稱(英) | 定義 | 符號
 ---------|----------|----------|---------
 參與者 | participate | 人或系統能從系統獲益且置身於系統之外<br>透過訊息收發，參與某個協力合作 | ![Actor](/images/Sequence_Actor.PNG "Actor") ![Actor](/images/Sequence_Actor2.PNG "Actor") 
-物件 | objec | 透過訊息收發，參與某個協力合作 | ![Actor](/images/Sequence_Object.PNG "Actor")
+物件 | object | 透過訊息收發，參與某個協力合作 | ![Actor](/images/Sequence_Object.PNG "Actor")
 生命線 | lifeline | 代表物件在序列期間的生命<br>不再互動的地方包含一個X符號 | ![LifeLine](/images/Sequence_LifeLine.PNG "LifeLine")
 執行事件 | Execution Occurrence <br> focus of control <br> activation  | 標示出物件何時收發訊息 | ![ex](/images/Sequence_Execution.PNG "ex")
 訊息 | message | 訊息從物件傳到另一個物件<br>傳送：實現箭頭<br>回傳：虛線箭頭 | ![Message](/images/Sequence_Message.PNG "Message")
