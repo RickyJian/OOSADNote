@@ -152,3 +152,7 @@
 > 可替代性原則(principle of substitutability)：若`子類別`屬性及操作與`超類別`一樣，則能取代
 
 ## Realization
+
+實作介面
+
+![Realization](/images/Relationship_Realization.PNG "Realization") 
