@@ -24,7 +24,13 @@
 
 ## 關聯 (Association)
 
-類別間的關係
+類別間的關，包含
+
+* 名稱
+* 聚集
+* 角色
+* 多重性
+* 航向
 
 ![Accociation](/images/Class_Association.PNG "Accociation") 
 
