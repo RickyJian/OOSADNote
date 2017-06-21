@@ -24,7 +24,7 @@
 
 ### 呼叫事件
 
-呼叫類別實力的某個特定動做
+呼叫類別實例的某個特定動做
 
 ![Event](images/StateMachine_Event2.PNG "Event")
 
