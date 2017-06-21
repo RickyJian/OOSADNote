@@ -1,6 +1,6 @@
 # Unit 11 介面圖 (Interface)
 
-定義了一組具名的公開特徵
+定義了一組具名的公開特徵，也就是說他定義了規格讓別人實作
 
 ![Interface](images/Interface_TopGround.PNG "Interface")
 
