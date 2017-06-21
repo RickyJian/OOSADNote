@@ -128,3 +128,21 @@
 #### << permit >>
 
 無視供應者的可視性(visibility)，使用者皆可存取到供應者的元件
+
+## 一般化關係 (Generalization)
+
+繼承，`a-kind-of`代表
+
+![Generaization](/images/Class_Generaization.PNG "Generaization") 
+
+### 超類別(superclass) 
+
+父類別
+
+### 子類別(subclass)
+
+會繼承`超類別`屬性及操作
+
+> 可替代性原則(principle of substitutability)：若`子類別`屬性及操作與`超類別`一樣，則能取代
+
+## Realization
