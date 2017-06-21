@@ -18,7 +18,7 @@
 
 ### Composite State
 
-一個狀態是由多個狀態組合而成
+一個含有 `Nested states` 的狀態，這些 `Nested states` 通常構成一個或多個 `sub machine`
 
 ![CompositeState](images/StateMachine_CompositeState.PNG "CompositeState")
 
@@ -137,9 +137,6 @@
 * 判斷條件由前置條件(Precondition)與後置(Postcondition)所取代
 
 ![Transform](images/StateMachine_Transform3.PNG "Transform")
-
-
-
 
 
 ## 圖示語意
