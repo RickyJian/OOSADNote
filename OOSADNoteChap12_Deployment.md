@@ -67,6 +67,8 @@
  `<< script >>` | 直譯器可執行的script
  `<< source >>` | 可編譯為執行檔的原始檔案
 
+ ![Artifact](/images/Deployment_Artifact.PNG "Artifact")
+
 ### `<<manifest>>`
 
 工作成果還要依賴其他工作成果
