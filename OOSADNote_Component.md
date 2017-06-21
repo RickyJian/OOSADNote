@@ -3,6 +3,8 @@
 * 系統中的模組，能封裝內容並在其環境中替換
 * 元件由一個或多個工作成果(Artifact)組成
 
+![Component](images/Component_TopGround2.PNG "Component")
+
 ![Component](images/Component_TopGround.PNG "Component")
 
 ![Component](images/Component_Change.PNG "Component")
