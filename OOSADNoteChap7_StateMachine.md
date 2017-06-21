@@ -21,6 +21,7 @@
 一個含有 `Nested states` 的狀態，這些 `Nested states` 通常構成一個或多個 `sub machine`
 
 ![CompositeState](images/StateMachine_CompositeState.PNG "CompositeState")
+[CompositeState](images/StateMachine_CompositeState2.PNG "CompositeState")
 
 ## 事件 (Event)
 
