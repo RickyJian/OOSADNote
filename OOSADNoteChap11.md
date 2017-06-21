@@ -12,7 +12,7 @@
 
 ![Composite](images/Interface_Composite2.PNG "Composite")
 
-> 組合連接器：是一個「連接一個提供服務，另一個需求該服務的兩個組件間的連接器。一個組件連接器定義了一個從必需接口(Request Interface)到提供接口(Provide Interface)的連接器。」這代表著兩個組件間「服務消費者——服務提供者」的關係
+> 組合連接器：是一個「連接一個提供服務，另一個需求該服務的兩個組件間的連接器。一個組件連接器定義了一個從必需接口(Requested Interface)到提供接口(Provided Interface)的連接器。」這代表著兩個組件間「服務消費者——服務提供者」的關係
 
 ## 定義屬性與特徵要點
 
