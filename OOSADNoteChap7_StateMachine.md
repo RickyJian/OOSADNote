@@ -16,6 +16,12 @@
 > * 會用一連串的狀態、轉換與事件來描述生命週期
 > * 現在的行為是依據過去的行為而生
 
+### Composite State
+
+一個狀態是由多個狀態組合而成
+
+![CompositeState](images/StateMachine_CompositeState.PNG "CompositeState")
+
 ## 事件 (Event)
 
 時空間中發生的事項
@@ -132,11 +138,18 @@
 
 ![Transform](images/StateMachine_Transform3.PNG "Transform")
 
+
+
+
+
 ## 圖示語意
 
 圖稱(中文) | 圖稱(英文) | 語意 | 圖示
 ---------|----------|---------- | ----------
-初始狀態 | Initail Start State | 狀態起始 | ![InitailStartState](images/StateMachine_InitailStartState.PNG "InitailStartState")
-結束狀態 | Stop State | 狀態結束 |  ![StopState](images/StateMachine_StopState.PNG "StopState")
+初始狀態 | Initail Pseudostate | 狀態起始 | ![InitailStartState](images/StateMachine_InitailStartState.PNG "InitailStartState")
+結束狀態 | Final Pseudostate | 狀態結束 |  ![FinalPseudostate](images/StateMachine_StopState.PNG "FinalPseudostate")
 轉換 | Transition | 狀態改變，只含箭頭 | ![Transition](images/StateMachine_Transform.PNG "Transition")
 事件 | Event | 時空間中發生的事項，傳換箭頭上方 | ![Event](images/StateMachine_Transform.PNG "Event")
+進入 | Entry Point Pseudostate | 狀態機的進入點 | ![EntryPointPseudostate](images/StateMachine_EntryState.PNG "EntryPointPseudostate")
+離開 | Exit Point Pseudostate |  狀態機的離開點  | ![ExitPointPseudostate](images/StateMachine_EntryState.PNG "ExitPointPseudostate")
+終止 | Terminate Pseudostate | 表示狀態終止 |![TerminatePseudostate](images/StateMachine_TerminatePseudostate.PNG "TerminatePseudostate")
